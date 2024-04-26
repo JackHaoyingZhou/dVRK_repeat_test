@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="rosbag" type="record" name="recorder" output="screen" 
+            args="-o    /home/jackzhy/dVRK_repeat_test/test.bag
+                  -b    4096
+                        /psm1/measured_jp
+                        /psm2/measured_jp"/>
+
+</launch>
